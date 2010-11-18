@@ -15,5 +15,6 @@
 	       (:file "shorthand" :depends-on ("packages"))
 	       (:file "string" :depends-on ("packages"))
 	       (:file "symbol" :depends-on ("packages"))
+	       (:file "test-tool" :depends-on ("packages"))
 	       (:file "with-collects" :depends-on ("packages"))
 	       (:file "with-default-values" :depends-on ("packages"))))
