@@ -17,3 +17,6 @@
 	  #'(lambda (s) `(,s (gensym)))
 	  gsyms)
      ,@body))
+
+(defun make-gensyms (count)
+  (loop :repeat count :collect (gensym)))

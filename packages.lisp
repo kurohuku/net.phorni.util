@@ -2,7 +2,7 @@
 
 (defpackage net.phorni.util
   (:use :cl)
-  (:nicknames :my)
+  (:nicknames :util)
   (:export
    ;; anaphora
    aif
@@ -16,6 +16,7 @@
    ;; function
    compose
    chain
+   cut
    ;; generic
    defmethods
    ;; hashtable
@@ -49,6 +50,7 @@
    make-keyword
    collect-symbol
    with-gensyms
+   make-gensyms
    ;; with-collects
    with-collects
    ;; with-default-values

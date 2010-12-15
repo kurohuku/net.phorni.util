@@ -11,7 +11,7 @@
 	       (:file "list" :depends-on ("packages"))
 	       (:file "named-let" :depends-on ("packages"))
 	       (:file "short-ht-reader" :depends-on ("packages"))
-	       (:file "short-lambda-reader" :depends-on ("packages" "list" "symbol"))q
+	       (:file "short-lambda-reader" :depends-on ("packages" "list" "symbol"))
 	       (:file "shorthand" :depends-on ("packages"))
 	       (:file "string" :depends-on ("packages"))
 	       (:file "symbol" :depends-on ("packages"))
