@@ -13,6 +13,7 @@
    while
    until
    cond-1
+   case+
    ;; function
    compose
    chain
