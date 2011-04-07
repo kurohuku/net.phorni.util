@@ -3,12 +3,12 @@
 
 (defmacro while (test &body body)
   `(loop
-      :until ,test
+      :while ,test
       :do ,@body))
 
 (defmacro until (test &body body)
   `(loop
-      :while ,test
+      :until ,test
       :do ,@body))
 
 (defmacro cond-1 (val &rest clauses)
